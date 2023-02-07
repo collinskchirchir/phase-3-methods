@@ -15,5 +15,5 @@ def greet_with_default(name="programmer")
 end
 
 def halve (number)
-  number.class == Integer  ? number/2 : nil;
+  number.class == Integer || number.class == Float ? number/2 : nil;
 end
